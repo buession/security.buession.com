@@ -1,10 +1,10 @@
 ---
 banner:
-  name: '基于各开源框架的二次开发和封装。'
-  desc: '基于各开源框架的二次开发和封装。'
+  name: '一款集成和封装的 JAVA 安全框架。'
+  desc: 'Pac4j、Shiro 二次封装，集成 Spring Security，提供极验的行为验证 SDK，封装了数据脱敏和多种密码加密方式工具类库的一款安全框架。'
   btns: 
     - { name: '开 始', href: '/docs/quickstart.html', primary: true }
-    - { name: 'Github >', href: 'https://github.com/buession/buessionframework' }
+    - { name: 'Github >', href: 'https://github.com/buession/buession-security' }
   caption: '当前版本: v2.0.0'
 features: 
   - { name: '优雅', desc: '经过精雕细琢，我们带给大家一个精心设计的、拥有卓越的视觉与交互体验的文档构建工具' }
