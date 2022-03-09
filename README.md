@@ -6,7 +6,7 @@
 
 ```bash
 $ npm install ydoc  # or yarn ydoc
-$ cd www.buession.com
+$ cd security.buession.com
 $ ydoc serve
 ```
 
