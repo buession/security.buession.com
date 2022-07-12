@@ -71,7 +71,7 @@ captchaClient.validate(request);
 ```
 
 
-### **极验**
+### **腾讯云**
 
 ```java
 import com.buession.security.captcha.CaptchaClient;
@@ -122,7 +122,6 @@ public class CaptchamentController {
 ```
 
 以上是基于 servlet 的一个简单实例，`buession-security-captcha` 基于上述模式也可以用于 webflux 环境。`CaptchaValidator` 的每个最终实现，均通过构造函数设置 `com.buession.security.captcha.CaptchaClient` 和 `com.buession.security.captcha.core.Parameter`。通过 `com.buession.security.captcha.core.Parameter` 的实现配置，用户提交的参数名称，也就是说，您可以自定义行为验证码前端提交到后端的参数名称，每一个 `com.buession.security.captcha.core.Parameter` 均设置了默认值。
-
 
 
 ## [API 参考手册>>](/manual/2.0/docs/buession-security-captcha/)

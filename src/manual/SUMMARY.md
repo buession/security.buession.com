@@ -7,6 +7,7 @@
       * [安装](2.0/core/index.md#安装)
     * [buession-security-captcha](2.0/captcha/index.md)
       * [安装](2.0/captcha/index.md#安装)
+      * [参数](2.0/captcha/parameter.md)
     * [buession-security-mcrypt](2.0/mcrypt/index.md)
       * [安装](2.0/mcrypt/index.md#安装)
     * [buession-security-pac4j](2.0/pac4j/index.md)
