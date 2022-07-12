@@ -3,7 +3,7 @@
 
 * [主页](https://security.buession.com/)
 * [快速上手](/docs/quickstart.md)
-* [文档](/docs/installation.md)
+* [参考手册](/manual/index.md)
 * [技术支持](/support.html)
 ## 生态
   * [Buession Framework](https://wwww.buession.com/)
