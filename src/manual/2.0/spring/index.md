@@ -17,5 +17,7 @@
 </dependency>
 ```
 
+该模块无功能，仅仅整合把 spring security 的依赖整合进来了。
+
 
 ## [API 参考手册>>](/manual/2.0/docs/buession-security-spring/)
