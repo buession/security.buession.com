@@ -90,5 +90,39 @@ request.setUserIp("User client ip");
 captchaClient.validate(request);
 ```
 
+当然，在您的应用中您可不必这么麻烦的使用，我们已经为您封装好了前端提交参数到 `RequestData` 的转换，您可不必这么麻烦的一个一个的去设置参数值。
+
+在您的 controller 中您可以这么用。
+
+
+```java
+import com.buession.lang.Status;
+import com.buession.web.mvc.Response;
+import com.buession.security.captcha.CaptchaClient;
+import com.buession.security.captcha.aliyun.AliyunParameter;
+import com.buession.security.captcha.validator.servlet.ServletAliYunCaptchaValidator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(path = "/captcha")
+public class CaptchamentController {
+
+    @Autowired
+    private CaptchaClient captchaClient;
+
+    @RequestMapping(path = "/validate", method = RequestMethod.GET)
+    public Status validate(HttpServletRequest request){
+        ServletAliYunCaptchaValidator captchaValidator = new ServletAliYunCaptchaValidator(captchaClient, new AliyunParameter());
+        return captchaValidator.validate(request);
+    }
+
+}
+```
+
+以上是基于 servlet 的一个简单实例，`buession-security-captcha` 基于上述模式也可以用于 webflux 环境。`CaptchaValidator` 的每个最终实现，均通过构造函数设置 `com.buession.security.captcha.CaptchaClient` 和 `com.buession.security.captcha.core.Parameter`。通过 `com.buession.security.captcha.core.Parameter` 的实现配置，用户提交的参数名称，也就是说，您可以自定义行为验证码前端提交到后端的参数名称，每一个 `com.buession.security.captcha.core.Parameter` 均设置了默认值。
+
+
 
 ## [API 参考手册>>](/manual/2.0/docs/buession-security-captcha/)
