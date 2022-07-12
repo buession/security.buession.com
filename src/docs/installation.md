@@ -11,7 +11,7 @@ cd buession-security/buession-security-parent && mvn clean install
 ### Maven
 ```xml
 <dependency>
-    <groupId>com.buession-security</groupId>
+    <groupId>com.buession.security</groupId>
     <artifactId>buession-security-xxx</artifactId>
     <version>x.x.x</version>
 </dependency>
@@ -19,7 +19,7 @@ cd buession-security/buession-security-parent && mvn clean install
 
 ### Gradle
 ```gradle
-compile group: 'com.buession-security', name: 'buession-security-xxx', version: 'x.x.x'
+compile group: 'com.buession.security', name: 'buession-security-xxx', version: 'x.x.x'
 ```
 
 
