@@ -8,9 +8,7 @@
 * 数据加密、解密类库，支持：MD5、SHA1、SHA256、SHA512、BASE64 以及 Discuz 加密算法等等。
 
 ### buession-security-pac4j
-* 对 pac4j 二次封装
-* pac4j SecurityFilter、CallbackFilter、LogoutFilter
-* pac4j profile 管理器以及工具类
+* 对 pac4j 二次封装，集成了 pac4j 和 buji-pac4j
 
 ### buession-security-shiro
 * apache shiro 二次封装
