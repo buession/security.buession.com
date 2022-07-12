@@ -1,8 +1,8 @@
 ### buession-security-core
 * 安全核心类库，安全相关实体类、枚举定义，数据脱敏工具。
 
-### buession-security-geetest
-* 极验行为验证 SDK
+### buession-security-captcha
+* 极验、阿里云、腾讯云行为验证 SDK
 
 ### buession-security-mcrypt
 * 数据加密、解密类库，支持：MD5、SHA1、SHA256、SHA512、BASE64 以及 Discuz 加密算法等等。
