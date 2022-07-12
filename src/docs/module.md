@@ -16,7 +16,6 @@
 
 ### buession-security-spring
 * 集成 spring security 框架
-* Csrf Token Repository 参数名称定义
 
 ### buession-security-web
 * web 安全相关的功能封装，支持 servlet 和 reactive
