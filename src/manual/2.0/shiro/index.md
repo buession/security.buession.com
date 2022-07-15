@@ -7,7 +7,7 @@ apache shiro 二次封装，增加 redis 对 session 和 cache 的管理。
 ---
 
 
-### **安装**
+### 安装
 
 ```xml
 <dependency>
@@ -18,4 +18,4 @@ apache shiro 二次封装，增加 redis 对 session 和 cache 的管理。
 ```
 
 
-## [API 参考手册>>](/manual/2.0/docs/buession-security-shiro/)
+### [API 参考手册>>](/manual/2.0/docs/buession-security-shiro/)

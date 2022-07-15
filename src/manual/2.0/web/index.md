@@ -7,7 +7,7 @@ web 安全相关的功能封装，支持 servlet 和 reactive，增加 XSS 过�
 ---
 
 
-### **安装**
+### 安装
 
 ```xml
 <dependency>
@@ -20,4 +20,4 @@ web 安全相关的功能封装，支持 servlet 和 reactive，增加 XSS 过�
 您可以通过 `ServletWebSecurityConfigurerAdapterConfiguration`、`ReactiveWebSecurityConfigurerAdapterConfiguration` 来控制 HTTP 安全相关响应头，是 spring security 默认参配置的修改。
 
 
-## [API 参考手册>>](/manual/2.0/docs/buession-security-web/)
+### [API 参考手册>>](/manual/2.0/docs/buession-security-web/)
