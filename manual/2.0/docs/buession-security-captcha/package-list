@@ -1,0 +1,12 @@
+com.buession.security.captcha
+com.buession.security.captcha.aliyun
+com.buession.security.captcha.core
+com.buession.security.captcha.geetest
+com.buession.security.captcha.geetest.api
+com.buession.security.captcha.geetest.api.v3
+com.buession.security.captcha.geetest.api.v4
+com.buession.security.captcha.tencent
+com.buession.security.captcha.utils
+com.buession.security.captcha.validator
+com.buession.security.captcha.validator.reactive
+com.buession.security.captcha.validator.servlet
