@@ -57,4 +57,4 @@ mcrypt.encode(new Integer(100));
 ```
 
 
-### [API 参考手册>>](/manual/2.0/docs/buession-security-mcrypt/)
+### [API 参考手册>>](https://javadoc.io/doc/com.buession.security/buession-security-mcrypt/2.0.2/index.html)

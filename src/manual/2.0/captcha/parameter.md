@@ -1,5 +1,6 @@
 # buession-security-captcha 参考手册
 
+
 本文档用于说明 `com.buession.security.captcha.core.Parameter` 和官方参数的对应关系。
 
 

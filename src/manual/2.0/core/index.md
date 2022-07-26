@@ -27,4 +27,4 @@ String str = Desensitization.encode("13800138000", 3); // 1380***8000
 ```
 
 
-### [API 参考手册>>](/manual/2.0/docs/buession-security-core/)
+### [API 参考手册>>](https://javadoc.io/doc/com.buession.security/buession-security-core/2.0.2/index.html)
