@@ -11,5 +11,5 @@ Buession Security API 包含以下目录：
 | buession-security-mcrypt   | [使用帮助](mcrypt/index.md)   | [API 手册](https://javadoc.io/doc/com.buession.security/buession-security-mcrypt/2.0.2/)       |
 | buession-security-pac4j    | [使用帮助](pac4j/index.md)    | [API 手册](https://javadoc.io/doc/com.buession.security/buession-security-pac4j/2.0.2/)       |
 | buession-security-shiro    | [使用帮助](shiro/index.md)    | [API 手册](https://javadoc.io/doc/com.buession.security/buession-security-shiro/2.0.2/)        |
-| uession-security-spring    | [使用帮助](spring/index.md)   | [API 手册](https://javadoc.io/doc/com.buession.security/buession-security-spring/2.0.2/)      |
+| buession-security-spring   | [使用帮助](spring/index.md)   | [API 手册](https://javadoc.io/doc/com.buession.security/buession-security-spring/2.0.2/)      |
 | buession-security-web      | [使用帮助](web/index.md)      | [API 手册](https://javadoc.io/doc/com.buession.security/buession-security-web/2.0.2/) |
