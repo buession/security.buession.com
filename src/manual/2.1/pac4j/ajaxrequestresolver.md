@@ -1,6 +1,9 @@
 # buession-security-pac4j 参考手册
 
 
+## AjaxRequestResolver
+
+
 pac4j 原生的 AJAX 请求解析器 `AjaxRequestResolver` 的实现 `DefaultAjaxRequestResolver`，以 XML 的形式响应 pac4j 重定向。
 
 ```xml
