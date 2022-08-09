@@ -12,6 +12,7 @@
       * [安装](2.1/mcrypt/index.md#安装)
     * [buession-security-pac4j](2.1/pac4j/index.md)
       * [安装](2.1/pac4j/index.md#安装)
+      * [AjaxRequestResolver](2.1/pac4j/ajaxrequestresolver.md)
     * [buession-security-shiro](2.1/shiro/index.md)
       * [安装](2.1/shiro/index.md#安装)
     * [buession-security-spring](2.1/spring/index.md)
